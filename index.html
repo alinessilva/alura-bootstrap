@@ -106,21 +106,24 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                 <figure class="item active">
-                        <img src="assets/img/depoimentos/depoimento1.png" alt="Foto de uma paisagem">
+                        <img class=
+                        "img-responsive" src="assets/img/depoimentos/depoimento1.png" alt="Foto de uma paisagem">
                         <figcaption class="carousel-caption">
                             <h3>Yuri Padilha</h3>
                             <p>Gostei muito e rápido o serviço.</p>
                         </figcaption>
                     </figure>
                 <figure class="item">
-                        <img src="assets/img/depoimentos/depoimento2.png" alt="Foto de uma paisagem">
+                        <img class=
+                        "img-responsive" src="assets/img/depoimentos/depoimento2.png" alt="Foto de uma paisagem">
                         <figcaption class="carousel-caption">
                             <h3>Fernando Stafaneni</h3>
                             <p>Excelente trabalho.</p>
                         </figcaption>
                 </figure>
                 <figure class="item">
-                        <img src="assets/img/depoimentos/depoimento3.png" alt="Foto de uma paisagem">
+                        <img class=
+                        "img-responsive" src="assets/img/depoimentos/depoimento3.png" alt="Foto de uma paisagem">
                         <figcaption class="carousel-caption">
                             <h3>Caio Sauzas</h3>
                             <p>Gostei, competência em primeiro lugar.</p>
@@ -144,7 +147,48 @@
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Py1Aygel" frameborder="0" allowfullscreen></iframe>
             </div>
-        </section>
+    </section>
+    <section class="container">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco</p>
+        <form action="">
+            <div class="form-group">
+                <label for="contato-name">Nome:</label>
+                <input class="form-control" id="contato-name" type="text" placeholder="Seu nome...">
+            </div>
+            <div class="form-group">
+                <label for="contato-email">Email:</label>
+                <div class="input-group">
+                        <div class="input-group-addon">@</div>
+                        <input type="email" class="form-control" id="contato-email" placeholder="Seu email...">
+                </div>
+            </div>
+            <div class="grupo-radio">
+                <div class="radio">
+                    <label for="">
+                    <input type="radio" name="tipo-pessoa" value="fisica" checked>Física
+                    </label>
+                </div>
+
+                <div class="radio">
+                    <label for="">
+                        <input type="radio" name="tipo-pessoa" value="juridica">Pessoa Jurídica
+                    </label>
+                </div>
+            </div><!--
+                  bug html
+                --><select class="contato-select form-control" name="tipo-solicitacao">
+                    <option disabled selected>Tipo de Situação</option>
+                    <option value="casa">Casa</option>
+                    <option value="apartamento">Apartamento</option>
+                    <option value="mansao">Mansão</option>
+                </select>
+
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            
+        </form>
+    </section>
+
     <script src="jquery.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>    
 </body>
