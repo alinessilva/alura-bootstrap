@@ -9,3 +9,5 @@ Seção "Depoimentos" desenvolvida com Carousel em JavaScript;<br>
 Seção "Vídeo Institucional" desenvolvida com o componente 
 Responsive embed;<br>
 Seção "Contato" desenvolvida com Forms;<br>
+Seção "Endereço" desenvolvida com Forms;<br>
+Seção "Menu" desenvolvido com Collapse em JavaScript;<br>
